@@ -14,16 +14,11 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-    
-    let sum =0;
-    for (i=0; i<arrayOfNumbers.length; i++){
-      
-        sum+=arrayOfNumbers[i];
-       
-    } 
-     return sum;
+   return arrayOfNumbers.length;
+
 
 }
+// assignment.sumOfNumbers = sumOfNumbers;
 
 
 
@@ -38,16 +33,18 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
+   return arrayOfNumbers.length;
   
     
-    let evenNumbers = arrayOfNumbers.filter((x)=>{
-      return(
-        x%2 ==0 )
-    })
+    // let evenNumbers = arrayOfNumbers.filter((x)=>{
+    //   return(
+    //     x%2 ==0 )
+    // })
           
-     return evenNumbers.length; 
+    //  return evenNumbers.length; 
 
     }
+// assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 3
