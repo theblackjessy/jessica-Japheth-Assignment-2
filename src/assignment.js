@@ -33,18 +33,18 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-   return arrayOfNumbers.length;
+ 
   
     
-    // let evenNumbers = arrayOfNumbers.filter((x)=>{
-    //   return(
-    //     x%2 ==0 )
-    // })
+    let evenNumbers = arrayOfNumbers.filter((x)=>{
+      return(
+        x%2 ==0 )
+    })
           
-    //  return evenNumbers.length; 
+     return evenNumbers.length; 
 
     }
-// assignment.sumOfNumbers = sumOfNumbers;
+
 
 /**
  * Challenge - 3
