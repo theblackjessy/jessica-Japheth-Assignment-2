@@ -15,6 +15,7 @@ const assignment = {};
  */
 function sumOfNumbers(arrayOfNumbers) {
    return arrayOfNumbers.length;
+  
 
 
 }
@@ -44,6 +45,7 @@ function countEvenNumbers(arrayOfNumbers) {
      return evenNumbers.length; 
 
     }
+assignment.countEvenNumbers = countEvenNumbers;
 
 
 /**
@@ -68,6 +70,7 @@ let Ftemp=[];
 }
  return Ftemp;
  }
+ assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
